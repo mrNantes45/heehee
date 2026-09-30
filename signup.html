@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up | routineFLow</title>
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body data-auth-mode="signup">
+    <main class="auth-shell">
+        <p class="auth-brand">routineFLow</p>
+        <section class="auth-card" aria-labelledby="signup-title">
+            <h1 id="signup-title">Start your flow</h1>
+            <p class="auth-intro">Create a local account for your daily routines.</p>
+            <div class="auth-form">
+                <label for="name">Name
+                    <input id="name" name="name" type="text" autocomplete="name" required>
+                </label>
+                <label for="email">Email
+                    <input id="email" name="email" type="email" autocomplete="email" required>
+                </label>
+                <label for="password">Password
+                    <input id="password" name="password" type="password" minlength="6" autocomplete="new-password" required>
+                </label>
+                <button class="auth-submit" type="button"><a href="login.html">Create account</a></button>
+            </div>
+            <p class="auth-switch">Already have an account? <a href="login.html">Log in</a></p>
+            <p class="auth-note">Static preview: account creation is not connected.</p>
+        </section>
+    </main>
+</body>
+</html>

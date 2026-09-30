@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Routine Checker | routineFLow</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="logo">routineFLow</h1>
+            <p class="header-note">DAILY ROUTINE TRACKER</p>
+            <a class="logout-link" href="login.html">Log out</a>
+        </header>
+
+        <main class="main-content">
+            <section class="stats-section" aria-label="Daily progress">
+                <div class="stat-card">
+                    <p class="stat-value">2</p>
+                    <p class="stat-label">Completed today</p>
+                </div>
+                <div class="stat-card">
+                    <p class="stat-value">4</p>
+                    <p class="stat-label">Total routines</p>
+                </div>
+                <div class="stat-card">
+                    <p class="stat-value">50%</p>
+                    <p class="stat-label">Completion rate</p>
+                </div>
+            </section>
+
+            <section class="routines-section" aria-labelledby="routines-title">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">YOUR DAY</p>
+                        <h2 id="routines-title">Today's routines</h2>
+                    </div>
+                    <p class="date-label">DAILY CHECKLIST</p>
+                </div>
+                <ul class="routines-list">
+                    <li class="routine-item completed">
+                        <input class="routine-checkbox" type="checkbox" checked disabled aria-label="Drink water, completed">
+                        <div class="routine-content">
+                            <span class="routine-text">Drink a glass of water</span>
+                            <span class="routine-time">MORNING</span>
+                        </div>
+                        <span class="routine-status">DONE</span>
+                    </li>
+                    <li class="routine-item completed">
+                        <input class="routine-checkbox" type="checkbox" checked disabled aria-label="Stretch, completed">
+                        <div class="routine-content">
+                            <span class="routine-text">Take a short stretch break</span>
+                            <span class="routine-time">MORNING</span>
+                        </div>
+                        <span class="routine-status">DONE</span>
+                    </li>
+                    <li class="routine-item">
+                        <input class="routine-checkbox" type="checkbox" disabled aria-label="Read, pending">
+                        <div class="routine-content">
+                            <span class="routine-text">Read for twenty minutes</span>
+                            <span class="routine-time">AFTERNOON</span>
+                        </div>
+                        <span class="routine-status pending">NEXT</span>
+                    </li>
+                    <li class="routine-item">
+                        <input class="routine-checkbox" type="checkbox" disabled aria-label="Plan tomorrow, pending">
+                        <div class="routine-content">
+                            <span class="routine-text">Plan tomorrow's priorities</span>
+                            <span class="routine-time">EVENING</span>
+                        </div>
+                        <span class="routine-status pending">NEXT</span>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <span>routineFLow</span>
+            <span>SMALL STEPS, EVERY DAY</span>
+        </footer>
+    </div>
+</body>
+</html>

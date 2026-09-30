@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in | routineFLow</title>
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body data-auth-mode="login">
+    <main class="auth-shell">
+        <p class="auth-brand">routineFLow</p>
+        <section class="auth-card" aria-labelledby="login-title">
+            <h1 id="login-title">Welcome back</h1>
+            <p class="auth-intro">Pick up where your routine left off.</p>
+            <div class="auth-form">
+                <label for="email">Email
+                    <input id="email" name="email" type="email" autocomplete="email" required>
+                </label>
+                <label for="password">Password
+                    <input id="password" name="password" type="password" autocomplete="current-password" required>
+                </label>
+                <button class="auth-submit" type="button"><a href="index.html">Log in</a></button>
+            </div>
+            <p class="auth-switch">New here? <a href="signup.html">Create an account</a></p>
+            <p class="auth-note">Static preview: sign-in is not connected.</p>
+        </section>
+    </main>
+</body>
+</html>
